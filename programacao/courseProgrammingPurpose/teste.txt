@@ -1,0 +1,25 @@
+VARIÁVEIS DE DECISÃO
+Xij = quantidade de material transportável de i para j
+
+FUNÇÃO OBJETIVO
+MAX Fluxo = Xef + Xcf
+
+
+RESTRIÇÕES
+Xab <= 65
+Xac <= 60
+Xbe <= 15
+Xbd <= 45
+Xbc <= 95
+Xcd <= 35
+Xcf <= 90
+Xde <= 40
+Xef <= 30
+
+Xab = Xbc + Xbd + Xbe
+Xac + Xbc = Xcd + Xcf
+Xbd + Xcd = Xde   
+Xbe + Xde = Xef 
+
+Xab + Xac = Xef + Xcf
+Xij >= 0
